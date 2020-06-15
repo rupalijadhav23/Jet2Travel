@@ -16,6 +16,7 @@
 		E41410AD2497A00200755AF4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41410AC2497A00200755AF4 /* CoreDataStack.swift */; };
 		E41410AF2497A03100755AF4 /* ServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41410AE2497A03100755AF4 /* ServiceHandler.swift */; };
 		E41410B12497A07700755AF4 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41410B02497A07700755AF4 /* ArticleViewModel.swift */; };
+		E41410B32497A11700755AF4 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41410B22497A11700755AF4 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E41410AC2497A00200755AF4 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		E41410AE2497A03100755AF4 /* ServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHandler.swift; sourceTree = "<group>"; };
 		E41410B02497A07700755AF4 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		E41410B22497A11700755AF4 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		E41410A924979F8F00755AF4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E41410B22497A11700755AF4 /* ArticleTableViewCell.swift */,
 				E414109224979F3000755AF4 /* Main.storyboard */,
 			);
 			path = View;
@@ -208,6 +211,7 @@
 				E414109724979F3000755AF4 /* Jet2Travel.xcdatamodeld in Sources */,
 				E41410B12497A07700755AF4 /* ArticleViewModel.swift in Sources */,
 				E414108F24979F3000755AF4 /* AppDelegate.swift in Sources */,
+				E41410B32497A11700755AF4 /* ArticleTableViewCell.swift in Sources */,
 				E41410AD2497A00200755AF4 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
