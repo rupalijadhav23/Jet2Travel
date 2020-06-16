@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E402FC632498B3B1001891B0 /* Media+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402FC5D2498B3B1001891B0 /* Media+CoreDataClass.swift */; };
+		E402FC642498B3B1001891B0 /* Media+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402FC5E2498B3B1001891B0 /* Media+CoreDataProperties.swift */; };
+		E402FC652498B3B1001891B0 /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402FC5F2498B3B1001891B0 /* Author+CoreDataClass.swift */; };
+		E402FC662498B3B1001891B0 /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402FC602498B3B1001891B0 /* Author+CoreDataProperties.swift */; };
+		E402FC672498B3B1001891B0 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402FC612498B3B1001891B0 /* Article+CoreDataClass.swift */; };
+		E402FC682498B3B1001891B0 /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402FC622498B3B1001891B0 /* Article+CoreDataProperties.swift */; };
 		E414108F24979F3000755AF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414108E24979F3000755AF4 /* AppDelegate.swift */; };
 		E414109124979F3000755AF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414109024979F3000755AF4 /* ViewController.swift */; };
 		E414109424979F3000755AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E414109224979F3000755AF4 /* Main.storyboard */; };
@@ -20,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E402FC5D2498B3B1001891B0 /* Media+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Media+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E402FC5E2498B3B1001891B0 /* Media+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Media+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E402FC5F2498B3B1001891B0 /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E402FC602498B3B1001891B0 /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E402FC612498B3B1001891B0 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E402FC622498B3B1001891B0 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E414108B24979F3000755AF4 /* Jet2Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jet2Travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E414108E24979F3000755AF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E414109024979F3000755AF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +57,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E402FC2C24988C62001891B0 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 		E414108224979F3000755AF4 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +99,12 @@
 		E41410A324979F8F00755AF4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E402FC5D2498B3B1001891B0 /* Media+CoreDataClass.swift */,
+				E402FC5E2498B3B1001891B0 /* Media+CoreDataProperties.swift */,
+				E402FC5F2498B3B1001891B0 /* Author+CoreDataClass.swift */,
+				E402FC602498B3B1001891B0 /* Author+CoreDataProperties.swift */,
+				E402FC612498B3B1001891B0 /* Article+CoreDataClass.swift */,
+				E402FC622498B3B1001891B0 /* Article+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,6 +112,7 @@
 		E41410A424979F8F00755AF4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E402FC2C24988C62001891B0 /* Reachability */,
 				E41410A524979F8F00755AF4 /* DBManager */,
 				E41410A624979F8F00755AF4 /* SericeHandler */,
 			);
@@ -206,13 +232,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E402FC632498B3B1001891B0 /* Media+CoreDataClass.swift in Sources */,
+				E402FC662498B3B1001891B0 /* Author+CoreDataProperties.swift in Sources */,
 				E41410AF2497A03100755AF4 /* ServiceHandler.swift in Sources */,
+				E402FC652498B3B1001891B0 /* Author+CoreDataClass.swift in Sources */,
+				E402FC682498B3B1001891B0 /* Article+CoreDataProperties.swift in Sources */,
 				E414109124979F3000755AF4 /* ViewController.swift in Sources */,
 				E414109724979F3000755AF4 /* Jet2Travel.xcdatamodeld in Sources */,
+				E402FC672498B3B1001891B0 /* Article+CoreDataClass.swift in Sources */,
 				E41410B12497A07700755AF4 /* ArticleViewModel.swift in Sources */,
 				E414108F24979F3000755AF4 /* AppDelegate.swift in Sources */,
 				E41410B32497A11700755AF4 /* ArticleTableViewCell.swift in Sources */,
 				E41410AD2497A00200755AF4 /* CoreDataStack.swift in Sources */,
+				E402FC642498B3B1001891B0 /* Media+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

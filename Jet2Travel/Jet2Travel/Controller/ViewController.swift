@@ -11,15 +11,23 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
+    private var articleViewModel = ArticleViewModel()
     
     @IBOutlet weak var articleTableView: UITableView!
+    var arryOfArtilce = [AnyObject]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         articleTableView.delegate = self
         articleTableView.dataSource = self
-
-        // Do any additional setup after loading the view.
+        loadAticleData()
+    }
+    
+    private func loadAticleData() {
+        articleViewModel.fetchArticleData { [weak self] in
+            self?.articleTableView.dataSource = self
+            self?.articleTableView.reloadData()
+        }
     }
 
 
@@ -44,6 +52,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         return UIView.init(frame: CGRect.zero)
     }
-    
+ 
 }
 
